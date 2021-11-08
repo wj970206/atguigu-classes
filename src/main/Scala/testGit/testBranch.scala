@@ -11,4 +11,13 @@ object testBranch {
     println("this is branch")
     println("this is branch")
   }
+  def method1(): Unit ={
+    println("method1")
+  }
+  def method2(): Unit ={
+    println("method2")
+  }
+  def method3(): Unit ={
+    println("method3")
+  }
 }
