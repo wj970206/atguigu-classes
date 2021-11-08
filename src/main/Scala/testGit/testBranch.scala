@@ -9,5 +9,6 @@ package testGit
 object testBranch {
   def main(args: Array[String]): Unit = {
     println("this is master")
+    println("this is branch")
   }
 }
