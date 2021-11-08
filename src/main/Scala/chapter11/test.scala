@@ -7,7 +7,9 @@ package chapter11
  * @version:1.0
  */
 class test {
-  var name=""
+  private var name=""
   var age=0
-
+  def getName():String={
+    this.name
+  }
 }
