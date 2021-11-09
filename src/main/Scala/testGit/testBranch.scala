@@ -20,4 +20,7 @@ object testBranch {
   def method3(): Unit ={
     println("method3")
   }
+  def method4: Unit ={
+    println("method4")
+  }
 }
