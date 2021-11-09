@@ -15,12 +15,18 @@ object testBranch {
     println("method1")
   }
   def method2(): Unit ={
-    println("method2")
+    println("branch2.method2")
+  }
+  def branch: Unit ={
+    println("add branch2 method2")
   }
   def method3(): Unit ={
     println("method3")
   }
   def method4: Unit ={
     println("method4")
+  }
+  def method5: Unit ={
+    println("branch2.5")
   }
 }
